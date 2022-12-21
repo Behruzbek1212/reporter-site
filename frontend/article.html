@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block context %}
+
+
+
+
+	<h1>{{ posts.nomi }}</h1>
+    <img src="{{ posts.rasm }}" alt="">
+    <p>{{ posts.date }}</p>
+    <br>
+    <h2>{{ posts.content }}</h2>
+
+{% endblock context %}
